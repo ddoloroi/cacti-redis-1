@@ -46,7 +46,7 @@ while (($key, $val) = each %status) {
     if (exists %$redis_info->{$key}) {
         $val = %$redis_info->{$key};
     }
-    print "$key:" . "$val\n";
+    print "$key:" . "$val ";
 }
 
 
